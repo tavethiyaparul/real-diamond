@@ -21,7 +21,7 @@ class ApiFeatures {
     filter() {
       const queryCopy = { ...this.queryStr };
       //   Removing some fields for category
-      const removeFields = ["keyword", "page", "limit"];
+      const removeFields = ["keyword", "page", "limit","resultperpage", "sort", "order"];
   
       removeFields.forEach((key) => delete queryCopy[key]);
   
@@ -36,14 +36,22 @@ class ApiFeatures {
     }
   
     pagination(resultPerPage) {
-      const currentPage = Number(this.queryStr.page) || 1;
-  
-      const skip = resultPerPage * (currentPage - 1);
-  
-      this.query = this.query.limit(+resultPerPage).skip(+skip);
-  
-      return this;
+      const currentPage = Number(this.queryStr.page) || 1
+        let resultperpage = Number(this.queryStr.resultperpage) || 50
+        const skip = resultperpage * (currentPage - 1)
+
+        this.query = this.query.limit(+resultperpage).skip(+skip)
+
+        return this
     }
+
+    sort() {
+      let val = this.queryStr.order
+      let key = this.queryStr.sort
+      console.log("val", val, "key", key)
+      this.query = this.query.sort({ [key]: val === "desc" ? -1 : 1 })
+      return this
+  }
   }
   
   module.exports = ApiFeatures;

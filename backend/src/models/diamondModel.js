@@ -43,4 +43,4 @@ const diamondSchema = new mongoose.Schema({
     timestamps: true,
   });
 
-module.exports = mongoose.model("diamondDetails", diamondSchema);  
+module.exports = mongoose.model("diamonds", diamondSchema);  

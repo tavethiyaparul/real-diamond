@@ -4,18 +4,25 @@ const jwt = require("jsonwebtoken")
 const User = require("../models/userModel")
 
 
-exports.isAuthentication = catchAsyncError(async(req,res,next)=>{
+exports.isAuthentication = async(req,res,next)=>{
     const {token}= req.cookies
+    try{
     if(!token)
     {
-        return next(new ErrorHander('please login to access this resource',401))
+        return res.status(403).json({ status: 10, message: `Please Login to access this resource` })
     }
 
     const decodedata = jwt.verify(token,process.env.JWT_SECERT)
-    req.user= await User.findById(decodedata.id)
-
-    next()
-})
+    const user= await User.findById(decodedata.id)
+    if (!user) {
+        return res.status(403).json({ status: 10, message: 'User not found' });
+    }
+    req.user = user;
+    next();
+    } catch (error) {
+        res.status(403).json({ status: 10, message: 'Token is not valid or Expired!' });
+    }
+}
 
 // exports.authorizeRoles = (...roles) =>{
 //     return(req,res,next)=>{
