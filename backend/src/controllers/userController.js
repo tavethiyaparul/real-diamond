@@ -29,19 +29,19 @@ loginUser : catchAsyncError(async (req, res, next) => {
     const { fieldsName, password } = req.body
 
     if (!fieldsName ||  !password) {
-        res.status(400).json({ status: 1, message:"Please Enter email & password" });
+       return res.status(400).json({ status: 1, message:"Please Enter email & password" });
     }
 
     const user = await User.findOne(fieldsName).select("+password")
 
     if (!user) {
-        res.status(400).json({ status: 1, message:"Invalid email or phone no & password" });
+       return res.status(400).json({ status: 1, message:"Invalid email or phone no & password" });
     }
 
     const ismatched = await user.comparePassword(password)
 
     if (!ismatched) {
-        res.status(400).json({ status: 1, message:"Invalid email or phone no  & password" });
+       return  res.status(400).json({ status: 1, message:"Invalid email or phone no  & password" });
     }
     sendToken(user, 200, res)
 }),

@@ -3,6 +3,7 @@ const app = express()
 const { isAuthentication } = require('../middleware/auth');
 const controller = require('../controllers/diamondController.js')
 
-app.get("/", isAuthentication,controller.searchDiamond)
-
+app.post("/",controller.searchDiamond)
+app.get("/:id",controller.getDiamondDetails)
+app.post("/contact",controller.addContact)
 module.exports= app 

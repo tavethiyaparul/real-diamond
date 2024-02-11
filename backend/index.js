@@ -1,23 +1,15 @@
 require('dotenv').config()
+require("./src/dbconnect/connect")
 const express = require('express');
-const app = express();
-const path = require('path');
 const cookieParser = require('cookie-parser');
+const bodyparser =require("body-parser")
 const cors = require('cors');
-const halmet =require('helmet')
-
-
 const allconfig= require("./src/config/allConfig")
+const app = express();
+const path = require("path")
 
-app.use(helmet());
-app.use(helmet.contentSecurityPolicy({
-  directives: {
-    scriptSrc: ["'self'", "'unsafe-inline'"]
-  }
-}));
-
-app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(bodyparser.json());
 app.use(cookieParser());
 app.use(cors({ origin: "*" }))
 
@@ -40,7 +32,12 @@ app.use('/api', require("./src/routers/index"));
 //   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 // });
 
+// app.use(express.static(path.resolve(__dirname, "../frontend/build")))
 
+// app.use("*", (req, res) => {
+//     console.log("admin-------------", path.join(__dirname, "../frontend/build", "index.html"))
+//     res.sendFile(path.join(__dirname, "../frontend/build", "index.html"))
+// })
 
 
 app.listen(allconfig.PORT,()=>{

@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema({
   lastName:{type:String,trim:true},
   token: {type:String},
   resetPasswordToken:String,
- resetPasswordExpair:Date,
+  resetPasswordExpair:Date,
  },{
   timestamps: true,
 })
@@ -32,7 +32,6 @@ userSchema.methods.getJWTToken = function(){
 }
 
 userSchema.methods.comparePassword = async function(enterpassword){
-    console.log("pass",enterpassword)
     return await bcrypt.compare(enterpassword,this.password)
 }
 
