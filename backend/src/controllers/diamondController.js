@@ -5,7 +5,7 @@ const Contact = require("../models/contactModel")
 
 module.exports = {
     searchDiamond: catchAsyncError(async (req, res, next) => {
-        console.log(" req.body 12333333333333333", req.body)
+        console.log(" req.body ", req.body)
         const { shape, color, polish, cut, clarity, sym, fluo, lab, eyeClean, location, fromSize, toSize } = req.body
 
         let addquery = []
