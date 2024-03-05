@@ -16,7 +16,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <i className="fa fa-phone fa-fw"></i>
-                                    <a className="text-decoration-none" href="tel:010-020-0340">
+                                    <a className="text-decoration-none" href="tel:+919978227111">
                                     +91 99782 27111
                                     </a>
                                 </li>

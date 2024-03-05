@@ -123,7 +123,7 @@ function CarouselList() {
                     </div>
                     <div class="row">
                         <div className="container">
-                            <img className="p-4" src={process} />
+                            <img className="p-4  img-fluid" src={process} />
                         </div>
                     </div>
                 </div>

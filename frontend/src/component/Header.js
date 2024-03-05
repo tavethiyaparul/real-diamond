@@ -27,7 +27,7 @@ const Header = () => {
                                 jigneshtagadiya@gmail.com
                             </a>
                             <i className="fa fa-phone mx-2"></i>
-                            <a className="navbar-sm-brand text-light text-decoration-none" href="tel:+91 99782 27111">
+                            <a className="navbar-sm-brand text-light text-decoration-none" href="tel:+919978227111">
                                 +91 99782 27111
                             </a>
                         </div>

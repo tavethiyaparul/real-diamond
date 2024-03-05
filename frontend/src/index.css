@@ -657,7 +657,7 @@ video {
 /* whtup img */
 .fixed-float{
   position: fixed;
-  right: 5px;
+  right: 3px;
   bottom: 50px;
   z-index: 9999;
 }
