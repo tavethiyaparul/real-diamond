@@ -1,15 +1,19 @@
-import image1 from "../images/8989.jpg"
-import image2 from "../images/898989.jpg"
-import image3 from "../images/71.png"
+import image1 from "../images/caro3.jpg"
+import image2 from "../images/caro2.jpg"
+import image3 from "../images/caro1.png"
 import v1 from "../images/video/v1.mp4"
 import v2 from "../images/video/v5.mp4"
 import v3 from "../images/video/v6.mp4"
-import s1 from "../images/s111.png"
-import s2 from "../images/s11.png"
 import process from "../images/process1.webp"
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
+
+import pear from "../images/shape/Pear_Shape_Diamond.jpg"
+import round from "../images/shape/Round_Shape_Diamond.jpg"
+import emerald from "../images/shape/Emerald_Shape_Diamond.jpg"
+import heart from "../images/shape/Heart_Shape_Diamond.jpg"
+import marquies from "../images/shape/Marquies_Shape_Diamond.jpg"
 
 function CarouselList() {
     const responsive = {
@@ -31,13 +35,11 @@ function CarouselList() {
     }
 
     const all = [
-
-        { title: "Pear Shape", imageSrc: "https://www.diyamimpex.com/public/Assets/Admin/img/dshape/Diyam_Pear_Shape_Diamond.jpg" },
-        { title: "Emerald Shape", imageSrc: "https://www.diyamimpex.com/public/Assets/Admin/img/dshape/Diyam_Emerald_Shape_Diamond.jpg" },
-        { title: "Heart Shape", imageSrc: "https://www.diyamimpex.com/public/Assets/Admin/img/dshape/Diyam_Heart_Shape_Diamond.jpg" },
-        { title: "Round Shape", imageSrc: "https://www.diyamimpex.com/public/Assets/Admin/img/dshape/Diyam_Round_Shape_Diamond.jpg" },
-        { title: "Marquies Shape", imageSrc: "https://www.diyamimpex.com/public/Assets/Admin/img/dshape/Diyam_Marquies_Shape_Diamond.jpg" },
-
+        { title: "Pear Shape", imageSrc: pear },
+        { title: "Emerald Shape", imageSrc: emerald },
+        { title: "Heart Shape", imageSrc: heart },
+        { title: "Round Shape", imageSrc: round },
+        { title: "Marquies Shape", imageSrc: marquies },
     ]
     return (
         <>
@@ -60,9 +62,7 @@ function CarouselList() {
                                             <b>Polish Diamond</b>
                                         </h1>
                                         {/* <h3 className="h2">Tiny and Perfect eCommerce Template</h3> */}
-                                        <p>
-                                            Polish refers to the degree of smoothness of each facet of a diamond as measured by a gemologist. When a diamond is cut and polished, microscopic surface defects may be created by the polishing wheel as it drags tiny dislodged crystals across the diamond's surface. Depending on the severity, these defects may disrupt light patterns as the light rays enter and exit the diamond.
-                                        </p>
+                                        <p>Polish refers to the degree of smoothness of each facet of a diamond as measured by a gemologist. When a diamond is cut and polished, microscopic surface defects may be created by the polishing wheel as it drags tiny dislodged crystals across the diamond's surface. Depending on the severity, these defects may disrupt light patterns as the light rays enter and exit the diamond.</p>
                                     </div>
                                 </div>
                             </div>
@@ -76,11 +76,11 @@ function CarouselList() {
                                 </div>
                                 <div className="col-lg-6 mb-0 d-flex align-items-center">
                                     <div className="text-align-left">
-                                        <h1 className="h1"><b>Rough Diamond</b></h1>
+                                        <h1 className="h1">
+                                            <b>Rough Diamond</b>
+                                        </h1>
                                         {/* <h3 className="h2">Aliquip ex ea commodo consequat</h3> */}
-                                        <p>
-                                            Rough Diamonds refer to diamonds which are still in their natural state after being removed from the belly of the earth. This is the stage before they are actually cut or polished in order to create the marvelous diamonds found in all of our unique jewelry.
-                                        </p>
+                                        <p>Rough Diamonds refer to diamonds which are still in their natural state after being removed from the belly of the earth. This is the stage before they are actually cut or polished in order to create the marvelous diamonds found in all of our unique jewelry.</p>
                                     </div>
                                 </div>
                             </div>
@@ -90,11 +90,13 @@ function CarouselList() {
                         <div className="container">
                             <div className="row p-5">
                                 <div className="mx-auto col-md-8 col-lg-6 order-lg-last">
-                                    <img className="img-fluid " src={image3} alt="" />
+                                    <img className="img-fluid " src={image1} alt="" />
                                 </div>
                                 <div className="col-lg-6 mb-0 d-flex align-items-center">
                                     <div className="text-align-left">
-                                        <h1 className="h1"><b>Grading Diamond</b></h1>
+                                        <h1 className="h1">
+                                            <b>Grading Diamond</b>
+                                        </h1>
                                         {/* <h3 className="h2">Ullamco laboris nisi ut </h3> */}
                                         <p>Diamond cut is the single most important of the 4Cs when it comes to the physical beauty of a diamond. Why? Because a diamond's cut determines how much it sparkles. The number of facets, the angle of the facets, and the symmetry and alignment of the shape will affect how the diamond returns light.</p>
                                     </div>
@@ -111,9 +113,7 @@ function CarouselList() {
                 </a>
             </div>
 
-
-
-            <section >
+            <section>
                 <div class="container">
                     <div class="row text-center py-3">
                         <div class="col-lg-6 m-auto">
@@ -122,11 +122,9 @@ function CarouselList() {
                         </div>
                     </div>
                     <div class="row">
-
                         <div className="container">
                             <img className="p-4" src={process} />
                         </div>
-
                     </div>
                 </div>
             </section>
@@ -279,7 +277,7 @@ function CarouselList() {
                     </div>
                     <div className="col-md-6">
                         <div class="content-container">
-                        <h2 className="pb-5">Grading</h2>
+                            <h2 className="pb-5">Grading</h2>
                             <p>Few things in nature are absolutely perfect. This is as true of diamonds as anything else. Diamonds have internal features, called inclusions, and surface irregularities, called blemishes. Together, they’re called clarity characteristics. Clarity is the relative absence of inclusions and blemishes.</p>
                             <p>Among other things, blemishes include scratches and nicks on a diamond’s surface. Inclusions are generally on the inside, and some might break the surface of the stone. Sometimes, tiny diamond or other mineral crystals are trapped inside a diamond when it forms. Depending on where they’re located, they might remain after the stone has been cut and polished, and they can affect a diamond’s appearance.</p>
                         </div>

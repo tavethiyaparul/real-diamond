@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "./static/css/main.d6657ce0.css",
+    "main.js": "./static/js/main.b5c058a4.js",
+    "static/js/787.9e9f4ffd.chunk.js": "./static/js/787.9e9f4ffd.chunk.js",
+    "static/media/v6.mp4": "./static/media/v6.4e068dd80f85d5a3ed16.mp4",
+    "static/media/v1.mp4": "./static/media/v1.6adf6778766b8498e54c.mp4",
+    "static/media/v5.mp4": "./static/media/v5.821c68384a8ebbe7ed08.mp4",
+    "static/media/fa-solid-900.ttf": "./static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/fa-brands-400.ttf": "./static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/caro1.png": "./static/media/caro1.80b8285ae809a6e5288c.png",
+    "static/media/fa-solid-900.woff2": "./static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/Round_Shape_Diamond.jpg": "./static/media/Round_Shape_Diamond.2efe29332fba29813667.jpg",
+    "static/media/fa-brands-400.woff2": "./static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/Marquies_Shape_Diamond.jpg": "./static/media/Marquies_Shape_Diamond.3e59d8cf1c6007444c0e.jpg",
+    "static/media/fa-regular-400.ttf": "./static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/Heart_Shape_Diamond.jpg": "./static/media/Heart_Shape_Diamond.44d577c2dbc14aa86cea.jpg",
+    "static/media/Pear_Shape_Diamond.jpg": "./static/media/Pear_Shape_Diamond.d629ab9aa04a5041cb4b.jpg",
+    "static/media/caro2.jpg": "./static/media/caro2.4bb68f7e5341a348d7e4.jpg",
+    "static/media/Emerald_Shape_Diamond.jpg": "./static/media/Emerald_Shape_Diamond.e8982f643a2826701938.jpg",
+    "static/media/process1.webp": "./static/media/process1.39ec6888687d64f93c87.webp",
+    "static/media/logo-1.svg": "./static/media/logo-1.6dad108f9069668b3c71c6d132904742.svg",
+    "static/media/logo-new.svg": "./static/media/logo-new.cfc478294bf31b699f2e95cad4f4cd18.svg",
+    "static/media/logo-white.svg": "./static/media/logo-white.41f883ded476e033e877be9ccace0b79.svg",
+    "static/media/fa-regular-400.woff2": "./static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/about.jpeg": "./static/media/about.ebd8e53a931a151158f3.jpeg",
+    "static/media/caro3.jpg": "./static/media/caro3.f91f883697b50b8b6095.jpg",
+    "static/media/revicons.eot": "./static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "./static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/fa-v4compatibility.ttf": "./static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/revicons.woff": "./static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/fa-v4compatibility.woff2": "./static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
+    "static/media/ic_whatsapp.svg": "./static/media/ic_whatsapp.de0201517363cd9fa3d0459b3e05d1f8.svg",
+    "index.html": "./index.html",
+    "main.d6657ce0.css.map": "./static/css/main.d6657ce0.css.map",
+    "main.b5c058a4.js.map": "./static/js/main.b5c058a4.js.map",
+    "787.9e9f4ffd.chunk.js.map": "./static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6657ce0.css",
+    "static/js/main.b5c058a4.js"
+  ]
+}

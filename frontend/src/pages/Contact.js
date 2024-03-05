@@ -4,7 +4,7 @@ import { makeApiCall } from "../common/MakeApicall"
 import { ErrorMessage, Field, Formik } from "formik"
 import * as Yup from "yup"
 import { Form, Button, Card } from "react-bootstrap"
-import bg1 from "../images/d7.jpg"
+
 import logo from "../images/logo-new.svg"
 
 const Contact = () => {

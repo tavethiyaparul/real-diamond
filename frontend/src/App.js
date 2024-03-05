@@ -17,12 +17,10 @@ import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import DiamondDetails from "./pages/DiamondDetails"
 import whatsup from "../src/images/ic_whatsapp.svg"
+import Gallery from "./component/Gallery"
 
 // # https://favicon.io/favicon-converter/
 function App() {
-    console.log("home -----")
-
-    console.log("sdcvbnm")
     return (
         <>
             <ToastContainer autoClose={1000} position="top-center" />
@@ -51,6 +49,7 @@ function AppContent() {
                 <Route path="/signup" element={<SingUp />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/gallery" element={<Gallery />} />
                 <Route path="/diamond" element={<Search />} />
                 <Route path="/diamond/:id" element={<DiamondDetails />} />
                 <Route path="*" element={<Error />} />

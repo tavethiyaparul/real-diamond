@@ -1,6 +1,5 @@
-import React, { useEffect } from "react"
-import { Link, useNavigate } from "react-router-dom"
-import "../index.css"
+import React from "react"
+import { useNavigate } from "react-router-dom"
 import { makeApiCall } from "../common/MakeApicall"
 import logo from "../images/logo-new.svg"
 
@@ -25,10 +24,10 @@ const Header = () => {
                         <div>
                             <i className="fa fa-envelope mx-2"></i>
                             <a className="navbar-sm-brand text-light text-decoration-none" href="mailto:jigneshtagadiya@gmail.com">
-                             jigneshtagadiya@gmail.com
+                                jigneshtagadiya@gmail.com
                             </a>
                             <i className="fa fa-phone mx-2"></i>
-                            <a className="navbar-sm-brand text-light text-decoration-none" href="tel:+91 9782 27111">
+                            <a className="navbar-sm-brand text-light text-decoration-none" href="tel:+91 99782 27111">
                                 +91 99782 27111
                             </a>
                         </div>
@@ -39,7 +38,6 @@ const Header = () => {
                             <a className="text-light" href="https://www.instagram.com/jigneshkumar_tagadiya/" target="_blank">
                                 <i className="fab fa-instagram fa-sm fa-fw me-2"></i>
                             </a>
-                           
                         </div>
                     </div>
                 </div>
@@ -69,11 +67,18 @@ const Header = () => {
                                         About
                                     </a>
                                 </li>
+
                                 <li className="nav-item">
                                     <a className="nav-link" href="/diamond">
                                         Diamond
                                     </a>
                                 </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/gallery">
+                                        Gallery
+                                    </a>
+                                </li>
+
                                 <li className="nav-item">
                                     <a className="nav-link" href="/contact">
                                         Contact
@@ -82,6 +87,9 @@ const Header = () => {
                             </ul>
                         </div>
                         <div className="navbar align-self-center d-flex">
+                            <button className="btn btn-primary mx-5" onClick={() => navigate("/login")}>
+                                Login
+                            </button>
                             {/* <div className="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
                                 <div className="input-group">
                                     <input type="text" className="form-control" id="inputMobileSearch" placeholder="Search ..."></input>

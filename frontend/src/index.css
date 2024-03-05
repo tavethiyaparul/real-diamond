@@ -639,9 +639,7 @@ video {
     height: 100%;
 }
 }
-
-
-  
+ 
 .banner-image{
   mix-blend-mode: darken;
 }
@@ -708,4 +706,12 @@ code {
 
 video[hide-control=true]::-webkit-media-controls {
   display: none;
+}
+
+.error-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
