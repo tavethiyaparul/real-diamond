@@ -1,189 +1,174 @@
-const ErrorHander = require('../utils/errorheandler')
+const ErrorHander = require("../utils/errorheandler")
 const catchAsyncError = require("../utils/catchAsyncError")
 const sendToken = require("../utils/jwtToken")
 const sendEmail = require("../utils/sendEmail")
-const crypto = require('crypto')
+const crypto = require("crypto")
 const User = require("../models/userModel")
 
-
 module.exports = {
-registerUser: catchAsyncError(async (req, res, next) => {
-    console.log(" req.body", req.body)
-    const { firstName,lastName, email, password,countryCode, country,phoneNo } = req.body
-    const user = await User.create({
-        phoneNo,
-        firstName,
-        lastName,
-        phoneNo,
-        email,
-        password,
-        countryCode,
-        country
-    })
-
-    sendToken(user, 201, res)
-}),
-
-loginUser : catchAsyncError(async (req, res, next) => {
-    console.log(" req.body", req.body)
-    const { fieldsName, password } = req.body
-
-    if (!fieldsName ||  !password) {
-       return res.status(400).json({ status: 1, message:"Please Enter email & password" });
-    }
-
-    const user = await User.findOne(fieldsName).select("+password")
-
-    if (!user) {
-       return res.status(400).json({ status: 1, message:"Invalid email or phone no & password" });
-    }
-
-    const ismatched = await user.comparePassword(password)
-
-    if (!ismatched) {
-       return  res.status(400).json({ status: 1, message:"Invalid email or phone no  & password" });
-    }
-    sendToken(user, 200, res)
-}),
-
-
-logout : catchAsyncError(async (req, res, next) => {
-
-    res.cookie("token", null, {
-        expires: new Date(Date.now()),
-        httpOnly: true,
-    });
-
-    res.status(200).json({
-        success: 1,
-        message: "loged out"
-    })
-}),
-
-forgotPassword : catchAsyncError(async (req, res, next) => {
-    const user = await User.findOne({ email: req.body.email })
-
-    if (!user) {
-        res.status(400).json({ status: 1, message:"user not found" });
-    }
-
-    const resetToken = user.getResetPasswordToken()
-
-    await user.save({ validateBeforeSave: false })
-    // const resetPasswordUrl = `${req.protocol}://${req.get("host")}/api/v1/password/reset/${resetToken}`
-     const resetPasswordUrl = `${process.env.FRONTEND_URL}://${req.get("host")}/password/reset/${resetToken}`
-
-    const message = `Your password reset token is :- \n\n ${resetPasswordUrl} \n\nIf you have not requested this email then, please ignore it.`;
-
-    try {
-        await sendEmail({
-            email: user.email,
-            subject: 'world class diamond Passsword Recovery',
-            message,
+    registerUser: catchAsyncError(async (req, res, next) => {
+        console.log(" req.body", req.body)
+        const { firstName, lastName, email, password, countryCode, country, phoneNo } = req.body
+        const user = await User.create({
+            phoneNo,
+            firstName,
+            lastName,
+            phoneNo,
+            email,
+            password,
+            countryCode,
+            country,
         })
-        res.status(200).json({
-            success: true,
-            message: `Email sent to ${user.email} successfully`,
-        });
 
-    } catch (error) {
-        user.resetPasswordToken = undefined;
-        user.resetPasswordExpire = undefined;
+        sendToken(user, 201, res)
+    }),
+
+    loginUser: catchAsyncError(async (req, res, next) => {
+        console.log(" req.body", req.body)
+        const { fieldsName, password } = req.body
+
+        if (!fieldsName || !password) {
+            return res.status(400).json({ status: 0, message: "Please Enter email & password" })
+        }
+
+        const user = await User.findOne(fieldsName).select("+password")
+
+        if (!user) {
+            return res.status(400).json({ status: 0, message: "Invalid email or phone no & password" })
+        }
+
+        const ismatched = await user.comparePassword(password)
+
+        if (!ismatched) {
+            return res.status(400).json({ status: 0, message: "Invalid email or phone no  & password" })
+        }
+        sendToken(user, 200, res)
+    }),
+
+    logout: catchAsyncError(async (req, res, next) => {
+        res.cookie("token", null, {
+            expires: new Date(Date.now()),
+            httpOnly: true,
+        })
+
+        res.status(200).json({
+            success: 1,
+            message: "loged out",
+        })
+    }),
+
+    forgotPassword: catchAsyncError(async (req, res, next) => {
+        const user = await User.findOne({ email: req.body.email })
+
+        if (!user) {
+            res.status(400).json({ status: 1, message: "user not found" })
+        }
+
+        const resetToken = user.getResetPasswordToken()
 
         await user.save({ validateBeforeSave: false })
+        // const resetPasswordUrl = `${req.protocol}://${req.get("host")}/api/v1/password/reset/${resetToken}`
+        const resetPasswordUrl = `${process.env.FRONTEND_URL}://${req.get("host")}/password/reset/${resetToken}`
 
-        return next(new ErrorHander(error.message, 500));
-    }
-}),
+        const message = `Your password reset token is :- \n\n ${resetPasswordUrl} \n\nIf you have not requested this email then, please ignore it.`
 
-// Reset Password
-resetPassword : catchAsyncError(async (req, res, next) => {
-    // creating token hash
-    const resetPasswordToken = crypto
-        .createHash("sha256")
-        .update(req.params.token)
-        .digest("hex");
+        try {
+            await sendEmail({
+                email: user.email,
+                subject: "world class diamond Passsword Recovery",
+                message,
+            })
+            res.status(200).json({
+                success: true,
+                message: `Email sent to ${user.email} successfully`,
+            })
+        } catch (error) {
+            user.resetPasswordToken = undefined
+            user.resetPasswordExpire = undefined
 
-    const user = await User.findOne({
-        resetPasswordToken,
-        resetPasswordExpair: { $gt: Date.now() },
-    });
+            await user.save({ validateBeforeSave: false })
 
-    if (!user) {
-        return next(
-            new ErrorHander(
-                "Reset Password Token is invalid or has been expired",
-                400
-            )
-        );
-    }
+            return next(new ErrorHander(error.message, 500))
+        }
+    }),
 
-    if (req.body.password !== req.body.confirmPassword) {
-        return next(new ErrorHander("Password does not password", 400));
-    }
+    // Reset Password
+    resetPassword: catchAsyncError(async (req, res, next) => {
+        // creating token hash
+        const resetPasswordToken = crypto.createHash("sha256").update(req.params.token).digest("hex")
 
-    user.password = req.body.password;
-    user.resetPasswordToken = undefined;
-    user.resetPasswordExpair = undefined;
+        const user = await User.findOne({
+            resetPasswordToken,
+            resetPasswordExpair: { $gt: Date.now() },
+        })
 
-    await user.save();
+        if (!user) {
+            return next(new ErrorHander("Reset Password Token is invalid or has been expired", 400))
+        }
 
-    sendToken(user, 200, res);
-}),
+        if (req.body.password !== req.body.confirmPassword) {
+            return next(new ErrorHander("Password does not password", 400))
+        }
 
-getUserDetails : catchAsyncError(async (req, res, next) => {
-    const user = await User.findById(req.user.id);
+        user.password = req.body.password
+        user.resetPasswordToken = undefined
+        user.resetPasswordExpair = undefined
 
-    res.status(200).json({
-        success: 1,
-        user,
-    });
-}),
+        await user.save()
 
-updatePassword : catchAsyncError(async (req, res, next) => {
-    const user = await User.findById(req.user.id).select("+password");
+        sendToken(user, 200, res)
+    }),
 
-    const isPasswordMatched = await user.comparePassword(req.body.oldPassword);
+    getUserDetails: catchAsyncError(async (req, res, next) => {
+        const user = await User.findById(req.user.id)
 
-    if (!isPasswordMatched) {
-        return next(new ErrorHander("Old password is incorrect", 400));
-    }
+        res.status(200).json({
+            success: 1,
+            user,
+        })
+    }),
 
-    if (req.body.newPassword !== req.body.confirmPassword) {
-        return next(new ErrorHander("password does not match", 400));
-    }
+    updatePassword: catchAsyncError(async (req, res, next) => {
+        const user = await User.findById(req.user.id).select("+password")
 
-    user.password = req.body.newPassword;
+        const isPasswordMatched = await user.comparePassword(req.body.oldPassword)
 
-    await user.save();
+        if (!isPasswordMatched) {
+            return next(new ErrorHander("Old password is incorrect", 400))
+        }
 
-    sendToken(user, 200, res);
-}),
+        if (req.body.newPassword !== req.body.confirmPassword) {
+            return next(new ErrorHander("password does not match", 400))
+        }
 
-getAllUser : catchAsyncError(async (req, res, next) => {
-    const users = await User.find();
-  
-    res.status(200).json({
-      success: true,
-      users,
-    });
-  }),
+        user.password = req.body.newPassword
 
-deleteUser : catchAsyncError(async (req, res, next) => {
-   
-   const user = await User.findById(req.params.id)
+        await user.save()
 
-   if(!user){
-    return next(
-        new ErrorHander(`User does not exist with Id: ${req.params.id}`)
-      );
-    }
-  
-    await user.remove()
+        sendToken(user, 200, res)
+    }),
 
-    res.status(200).json({
-      success: true,
-      message:"delete user"
-    });
-  })
+    getAllUser: catchAsyncError(async (req, res, next) => {
+        const users = await User.find()
+
+        res.status(200).json({
+            success: true,
+            users,
+        })
+    }),
+
+    deleteUser: catchAsyncError(async (req, res, next) => {
+        const user = await User.findById(req.params.id)
+
+        if (!user) {
+            return next(new ErrorHander(`User does not exist with Id: ${req.params.id}`))
+        }
+
+        await user.remove()
+
+        res.status(200).json({
+            success: true,
+            message: "delete user",
+        })
+    }),
 }
