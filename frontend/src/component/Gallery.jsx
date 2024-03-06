@@ -8,16 +8,15 @@ import g6 from "../images/gallery/6.jpeg"
 import g7 from "../images/gallery/7.jpeg"
 import g8 from "../images/gallery/8.jpeg"
 
-
 const all = [
-    { alt: "Pear Shape", imageSrc: g1 },
-    { alt: "Emerald Shape", imageSrc: g2 },
-    { alt: "Heart Shape", imageSrc: g7 },
-    { alt: "Round Shape", imageSrc: g3 },
-    { alt: "Marquies Shape", imageSrc: g5 },
-    { alt: "Round Shape", imageSrc: g6 },
-    { alt: "Marquies Shape", imageSrc: g4 },
-    { alt: "Marquies Shape", imageSrc: g8 },
+    { alt: "Hong Kong Fairs", imageSrc: g1 },
+    { alt: "Hong Kong Fairs", imageSrc: g2 },
+    { alt: "Hong Kong Fairs", imageSrc: g7 },
+    { alt: "Hong Kong Fairs", imageSrc: g3 },
+    { alt: "Hong Kong Fairs", imageSrc: g5 },
+    { alt: "Hong Kong Fairs", imageSrc: g6 },
+    { alt: "Hong Kong Fairs", imageSrc: g4 },
+    { alt: "Hong Kong Fairs", imageSrc: g8 },
 ]
 
 const Gallery = () => {
@@ -29,18 +28,15 @@ const Gallery = () => {
                 <hr className="mt-2 mb-5" />
 
                 <div className="row text-center text-lg-start">
-                    {
-                        all.map((e)=>
+                    {all.map((e) => (
                         <>
-                        <div className="col-lg-3 col-md-4 col-6  p-4">
-                        {/* <a href="#" className="d-block mb-4 h-100"> */}
-                            <img className="img-fluid img-thumbnail" style={{ height: '350px', width:"350px", objectFit: 'cover' }}
-src={e.imageSrc} alt={e.alt} />
-                        {/* </a> */}
-                         </div>
+                            <div className="col-lg-3 col-md-4 col-12 p-4">
+                                {/* <a href="#" className="d-block mb-4 h-100"> */}
+                                <img className="img-fluid img-thumbnail" style={{ height: "350px", width: "350px", objectFit: "cover" }} src={e.imageSrc} alt={e.alt} />
+                                {/* </a> */}
+                            </div>
                         </>
-                        )
-                    }
+                    ))}
                 </div>
             </div>
         </>

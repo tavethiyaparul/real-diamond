@@ -57,7 +57,7 @@ function AppContent() {
             <Footer />
             <div className="fixed-float">
                 <a target="_blank" href="https://wa.me/919978227111">
-                    <img className="fab-btn" style={{ width: "75px" }} src={whatsup} />
+                    <img className="fab-btn" style={{ width: "50px" }} src={whatsup} />
                 </a>
             </div>
         </div>

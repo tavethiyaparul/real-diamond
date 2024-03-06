@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.4676ccc4.css",
-    "main.js": "./static/js/main.e6fb8886.js",
+    "main.js": "./static/js/main.46117553.js",
     "static/js/787.9e9f4ffd.chunk.js": "./static/js/787.9e9f4ffd.chunk.js",
     "static/media/v6.mp4": "./static/media/v6.4e068dd80f85d5a3ed16.mp4",
     "static/media/v1.mp4": "./static/media/v1.6adf6778766b8498e54c.mp4",
@@ -27,9 +27,9 @@
     "static/media/caro2.jpg": "./static/media/caro2.4bb68f7e5341a348d7e4.jpg",
     "static/media/Emerald_Shape_Diamond.jpg": "./static/media/Emerald_Shape_Diamond.e8982f643a2826701938.jpg",
     "static/media/process1.webp": "./static/media/process1.39ec6888687d64f93c87.webp",
-    "static/media/logo-1.svg": "./static/media/logo-1.25ee49dc6c487b06a779433a5bdc943f.svg",
-    "static/media/logo-new.svg": "./static/media/logo-new.c26fc9e039b3d9c73cc62c232cee35b1.svg",
-    "static/media/logo-white.svg": "./static/media/logo-white.a2a9a202ae39aae2feb338402e30a5c9.svg",
+    "static/media/logo-1.svg": "./static/media/logo-1.6dad108f9069668b3c71c6d132904742.svg",
+    "static/media/logo-new.svg": "./static/media/logo-new.cfc478294bf31b699f2e95cad4f4cd18.svg",
+    "static/media/logo-white.svg": "./static/media/logo-white.41f883ded476e033e877be9ccace0b79.svg",
     "static/media/fa-regular-400.woff2": "./static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
     "static/media/about.jpeg": "./static/media/about.ebd8e53a931a151158f3.jpeg",
     "static/media/caro3.jpg": "./static/media/caro3.f91f883697b50b8b6095.jpg",
@@ -38,14 +38,14 @@
     "static/media/fa-v4compatibility.ttf": "./static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/revicons.woff": "./static/media/revicons.e8746a624ed098489406.woff",
     "static/media/fa-v4compatibility.woff2": "./static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
-    "static/media/ic_whatsapp.svg": "./static/media/ic_whatsapp.c238c7f37ddf38a2cacfbe52626f0f35.svg",
+    "static/media/ic_whatsapp.svg": "./static/media/ic_whatsapp.de0201517363cd9fa3d0459b3e05d1f8.svg",
     "index.html": "./index.html",
     "main.4676ccc4.css.map": "./static/css/main.4676ccc4.css.map",
-    "main.e6fb8886.js.map": "./static/js/main.e6fb8886.js.map",
+    "main.46117553.js.map": "./static/js/main.46117553.js.map",
     "787.9e9f4ffd.chunk.js.map": "./static/js/787.9e9f4ffd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4676ccc4.css",
-    "static/js/main.e6fb8886.js"
+    "static/js/main.46117553.js"
   ]
 }

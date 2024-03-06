@@ -61,7 +61,7 @@ const Contact = () => {
                     </div> */}
                     <div className="row">
                         <div className="col-md-6 mx-auto">
-                            <Card style={{ width: "30rem" }} className="bg-body rounded gap-2">
+                            <Card className="bg-body rounded gap-2">
                                 <Card.Body>
                                     <h2 className="text-center mb-4">Send us a message</h2>
                                     <Formik
@@ -107,24 +107,24 @@ const Contact = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="text-dark text-center">
-                            <img className="w-50 h-50 mb-4" src={logo}></img>
+                                <img className="w-50 h-50 mb-4" src={logo}></img>
                                 {/* <h2 className="h2  pb-3 mb-4">Dharmi Impex</h2> */}
                                 <ul className="list-unstyled footer-link-list">
-                                <li>
-                                    <i className="fas fa-map-marker-alt fa-fw p-2"></i>
-                                    21, Sonal Park Society, Pani Gam, Katargam, Surat
-                                </li>
-            
+                                    <li>
+                                        <i className="fas fa-map-marker-alt fa-fw p-2"></i>
+                                        21, Sonal Park Society, Pani Gam, Katargam, Surat
+                                    </li>
+
                                     <li>
                                         <i className="fa fa-phone fa-fw p-2"></i>{" "}
-                                        <a className="text-decoration-none" href="tel:919978227111">
-                                        +91 99782 27111
+                                        <a className="text-decoration-none" href="tel:+919978227111">
+                                            +91 99782 27111
                                         </a>
                                     </li>
                                     <li>
                                         <i className="fa fa-envelope fa-fw p-2"></i>{" "}
                                         <a className="text-decoration-none" href="mailto:jigneshtagadiya@gmail.com">
-                                        jigneshtagadiya@gmail.com
+                                            jigneshtagadiya@gmail.com
                                         </a>
                                     </li>
                                 </ul>
