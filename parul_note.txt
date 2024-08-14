@@ -1,0 +1,614 @@
+
+pm2 --name franchise start  /home/testATH/franchise/backend/index.js
+new server setup
+ apacha2 install 	
+	sudo apt update
+	sudo apt install apache2
+	sudo systemctl start apache2
+	sudo systemctl status mongod
+	
+Reactjs 
+framework is simplify the code
+
+Reactjs - libary
+	- open source js library.
+	- bulding user interface.
+	- reusedable component.
+	- simplifies the creation of single page application.
+
+spa - component it add but never load hole page is called spa
+    - spa is web application that have only one single web page.
+    - do some action on the website then content is dynamically updated without refreshing or loading new page.
+		
+Advantage 
+	1. simple to build single page application
+	2. react is cross platform and open source(free to use)
+	3. lightweight and very fast (virtual Dom)
+	4. large community and Ecosystem
+	5. Testing is easy
+
+disadvantage 
+	1.React is not good choice for very small application.(static website not used)
+
+DOM 
+	Dom tree like structure(Real Dom)
+
+DOM and virtul Dom
+
+hole layout loading   - partical layout reload
+time consumer         - fast 
+
+React component
+	- component is reusable building block for create user interace.
+
+npm -node package manager
+    - npm manage the dependencies for your react project, including the recat library itself.
+    
+public - static contain	are served directly browser
+	 it is images, fonts and index.html 
+
+src - all source code of the application 
+index.html - single page application , entry point file of the application
+app.js - root level component and other component is child component is rerender
+
+role of function and return
+	function is a js.function that return a react element
+	fuction is without return posiable.
+
+export default 
+	app component avaliable for import 
+
+index.js
+	integration file app.js and index.html
+	ReactDom is a js library which convet your component to actual browser Dom
+	
+	
+AWS INTERVIEW
+
+loadBlance 
+ manage traffic,
+4 type
+- network,gatway,application,classic loadbalance
+
+auto scaling 
+- if cpu conjeption high  or low
+
+vpm - virtual private Machine - got a private machine
+vpm component -
+virtual private cloud(VPC),
+virtual private network(VPN),
+vpc Endpoint
+
+vpc component
+CIDR Block,
+vpc peering
+subnets,
+Route Tables,
+internet gateway,
+NAT gateway,
+vpc peering,
+endpoint services
+
+security group means virtual firewall
+inbound and outbound traffic
+
+Elastic ip -ec2 purchse that give dynamic ip is called, static public ip address	
+codewinglet private limited  -surat
+https://www.neosofttech.com/  -mumbai
+
+s3 bucket replication
+s3 store object base store, 2 different location backet(primary and secondery) create and same data store if primary bucket issue that time used secondery bucket.
+
+limit one account - create aws free trial account
+s3 - 5Gb- bucket 100 
+vpc -5 - each vpc 200 subnet create
+ec2 instance -750 hour free
+
+webrtc 
+https://github.com/rsatrio/React-WebRTC-Chat/blob/main/src/App.js
+https://github.com/rsatrio/React-WebRTC-Chat/blob/main/src/App.js
+https://medium.com/stackanatomy/introduction-to-simple-peer-a-webrtc-library-ab04ea8aa5fe
+
+User : parul@joni.co.in
+Password : Parul@1995
+https://hrms.superworks.com/
+
+8469854670
+https://noorwebshop.netlify.app/
+https://opencart.workdo.io/diamond/
+https://ps-jewelshop.myshopify.com/account/registe
+https://huge-jewelry.myshopify.com/account/register
+https://opencart.templatemela.com/OPC08/OPC080191/OPC1/index.php?route=account/register
+Pallavi.thombare@mastek.com
+
+
+mongo atlas bill https://www.mongodb.com/docs/atlas/billing/serverless-instance-costs/#:~:text=(1%2C%202%2C%203),using%20500%2C000%20would%20cost%20%240.63.
+
+https://conexus-ns.com/career/
+https://www.girdtechnologies.com/career
+https://careers.persistent.com/jobview/node-js-lead-pune-2022061112264048
+
+https://groworbit.in/toolscalculter/auth
+https://groworbit.in/admin_photo_snapcial/auth
+athh athh@1234
+
+bharatp005
+
+Bharat@1507
+
+91-7935200685
+hr@athh.com
+AZYPT6603P
+ARMPT5153E
+AFXPT
+https://linkintime.co.in/MIPO/Ipoallotment.html
+
+Rox Hi-tech 
+
+https://decodesofttech.com/
+
+galaxym02sam2022@gmail.com
+athh@1234
+
+https://codesandbox.io/s/react-select-with-checkboxes-bedj8
+
+---create index in mongoose 
+ constant.MongoDb.user.createIndex({ "payload.userId": 1 }, { background: true })
+--------
+
+github credintional
+parul-athh
+parul@joni.co.in
+parul@1507
+
+bharatp005
+Bharat@1507
+
+matterMost credintional
+http://64.227.145.50/
+username-parul15 
+passoword-Test@1234
+
+server url 
+http://64.227.145.50/
+name athh admin
+
+
+serverless  --> https://www.youtube.com/watch?v=VvYADzRwJK8
+ 1. install serverlesss on window pc
+ 2. create function heoll.js
+ 3. serverless.yml file create
+ 4. cmd =>export AWS_ACCESS_KEY_ID=ddsdasdasdgfre
+	  export AWS_SECRET_ACCESS_KEY=redfserwers
+    aws console = iam > Users > serverless > create access key
+ 5. deploy = serverless deploy
+
+serverless CLI = npm install -g serverless
+		 serverless
+serverless
+	event driven compute service.any backend application
+Today Update:
+Date:3/11/23
+- chatgpt 
+***view permision
+ls -l
+
+***read-4 write-2 excution-1
+set file permision  
+ find /var/www/groworbit/public_html/vip_video/images/video  -type f -exec chmod 644 {} \;
+
+***set folder permision 
+ chmod 753 /var/www/groworbit/public_html/vip_video/images/video
+ chmod u+rwx
+ls -l
+17/8/2023
+
+working on mongoclient project. 
+nodejs project structure.
+
+18/8/2023
+
+ubntu command
+
+putty command:-
+login username:root
+      password:1234	
+
+1. start server 
+	pm2 restart index.js
+	pm2 stop index.js
+	pm2 start index.js
+
+2. how to check server log
+	pm2 logs
+	pm2 logs index.js
+	pm2 logs index.js --lines 15
+
+
+create a url - http://piks.in:5220/ 
+project upload in filezile (simple mern stack)
+	1. /var/www/backend - nodejs project 
+	2. /var/www/frontend - only store build file 
+
+how to set reverse proxy 
+	https://www.hostinger.in/tutorials/how-to-set-up-nginx-reverse-proxy/
+location - /etc/apache1/site available
+
+sudo a2enmod proxy
+sudo a2enmod proxy_http
+sudo a2enmod proxy_wstunnel
+sudo nano /etc/apache2/sites-available/mydomain.com.conf
+<VirtualHost *:80>
+    ServerName mydomain.com
+
+    ProxyPass / http://localhost:8080/
+    ProxyPassReverse / http://localhost:8080/
+</VirtualHost>
+
+sudo a2ensite mydomain.com.conf
+
+sudo systemctl restart apache2
+
+image get url 
+https://piks.in/photo_snapcial/images/BACKGROUND/Love_Love_Just_Love_BGRD201909101017525973.webp
+
+
+		'mongodb' => [
+		'driver'   => 'mongodb',
+		'host'     => env('DB_HOST', 'localhost'),
+		'port'     => env('DB_PORT', 27017),
+		'database' => env('DB_DATABASE', 'video_call_one'),
+		'username' => env('DB_USERNAME', 'athh'),
+		'password' => env('DB_PASSWORD', 'athh1507'),
+		'options'  => [
+			'database' => 'admin', // Set the authentication database
+		],
+	 ],
+
+23/02/2023
+
+yarn package not working
+powershell as run as administrater
+1--------Set-ExecutionPolicy RemoteSigned 
+2--------Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+larval project live chatGpt
+
+document root : path set chatgpt
+zip upload on server
+
+sql database connect 
+db privilige
+
+---database 
+php artisan make:factory UserFactory
+php artisan db:seed
+php artisan migrate
+
+-- DNS config ssh 
+
+Dns register check ip - https://toolbox.googleapps.com/apps/dig/#A/
+
+sudo a2ensite test.conf
+sudo certbot --apache -d gpt.likeme.live
+
+sudo certbot --apache -d gpt.likeme.live -v
+
+==================================================================================
+root@ubuntu-s-2vcpu-4gb-intel-nyc1-01:~# sudo certbot --apache -d gpt.piks.co.in
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Requesting a certificate for gpt.piks.co.in
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/gpt.piks.co.in/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/gpt.piks.co.in/privkey.pem
+This certificate expires on 2024-02-05.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+
+Deploying certificate
+
+We were unable to find a vhost with a ServerName or Address of gpt.piks.co.in.
+Which virtual host would you like to choose?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+1: 000-default.conf               |                       |       | Enabled
+2: test-ssl.conf                  | gpt.likeme.live       | HTTPS | Enabled
+3: likeme.piks.co.in-le-ssl.conf  | likeme.piks.co.in     | HTTPS | Enabled
+4: likemetest.piks.co.in.conf     | likemetest.piks.co.in |       | Enabled
+5: likeme.piks.co.in.conf         | likeme.piks.co.in     |       | Enabled
+6: likemetest.piks.co.in-le-ssl.c | likemetest.piks.co.in | HTTPS | Enabled
+7: test.conf                      | gpt.likeme.live       |       | Enabled
+8: default-ssl.conf               |                       | HTTPS | Enabled
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Select the appropriate number [1-8] then [enter] (press 'c' to cancel): 2
+Successfully deployed certificate for gpt.piks.co.in to /etc/apache2/sites-enabled/test-ssl.conf
+Congratulations! You have successfully enabled HTTPS on https://gpt.piks.co.in
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:                    https://eff.org/donate-le
+
+
+test.conf file automatic add ssh key path
+======================================================================================================
+
+ //30 user download then enable 1
+                constant.MongoDb.version
+                    .find({})
+                    .sort({ _id: -1 })
+                    .limit(1)
+                    .toArray(function (err, res) {
+                        if (!err && res != null && res.length > 0) {
+                            // console.log("res", res)
+                            constant.MongoDb.version.updateOne({ _id: res[0]._id, users: { $gt: 30 }, enabled: 0 }, { $set: { enabled: 1 } }, { upsert: false }, function (updateErr, updateRes) {
+                                if (!updateErr) {
+                                    console.log("Last record updated successfully:")
+                                } else {
+                                    console.error("Error updating last record:")
+                                }
+                            })
+                        } else {
+                            console.log("error", err)
+                        }
+                    })
+
+
+    getInstaller: async (req, res, next) => {
+        try {
+            const today = new Date()
+            // console.log("today", today)
+            // today.setHours(0, 0, 0, 0) // Start of today
+            // console.log("dataaa", today)
+            const startOfDay = new Date(today)
+            startOfDay.setUTCHours(0, 0, 0, 0)
+            const endOfDay = new Date(today)
+            endOfDay.setUTCHours(23, 59, 59, 999)
+
+            console.log("todaytoday", startOfDay, endOfDay)
+            const totalCount = await INSTALLTRACK.find({
+                dateTime: {
+                    $gte: startOfDay,
+                    $lte: endOfDay,
+                },
+            })
+                .countDocuments()
+                .lean()
+            console.log("totalCount", totalCount)
+            const yesterday = new Date()
+            yesterday.setDate(today.getDate() - 1)
+            const endOfYesterday = new Date(yesterday)
+            endOfYesterday.setHours(23, 59, 59, 999)
+            // const yesterdayDate = new Date(new Date("2020-08-06T06:55:33.000+00:00").getTime() - 24 * 60 * 60 * 1000)
+            const yesterDayCount = await INSTALLTRACK.find({
+                datetime: {
+                    $gte: yesterday,
+                    $lte: endOfYesterday,
+                },
+            })
+                .countDocuments()
+                .lean()
+
+            //last seven date record
+            const sevenDaysAgo = new Date(new Date().getTime() - 7 * 24 * 60 * 60 * 1000)
+            console.log("sevenDaysAgo", sevenDaysAgo)
+
+            const sevenDayCount = await INSTALLTRACK.find({
+                datetime: { $gte: sevenDaysAgo, $lte: new Date() },
+            })
+                .countDocuments()
+                .lean()
+
+            //last 30 day record
+            const thirtyDaysAgo = new Date(new Date().getTime() - 30 * 24 * 60 * 60 * 1000)
+            console.log("thirtyDaysAgo", thirtyDaysAgo)
+
+            const thirtyDayCount = await INSTALLTRACK.find({
+                datetime: { $gte: thirtyDaysAgo, $lte: new Date() },
+            })
+                .countDocuments()
+                .lean()
+
+            const resultData = {
+                totalCount,
+                yesterDayCount,
+                sevenDayCount,
+                thirtyDayCount,
+            }
+            const jsonResponse = responseData.dynamicResponse({ code: 200, result: resultData, message: "success." })
+            res.send(jsonResponse)
+        } catch (error) {
+            console.log("error", error)
+            return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({ code: 500, message: constant.INTERNAL_SERVER_ERROR })
+        }
+    },
+
+import Button from "@material-ui/core/Button"
+import IconButton from "@material-ui/core/IconButton"
+import TextField from "@material-ui/core/TextField"
+import AssignmentIcon from "@material-ui/icons/Assignment"
+import PhoneIcon from "@material-ui/icons/Phone"
+import React, { useEffect, useRef, useState } from "react"
+import { CopyToClipboard } from "react-copy-to-clipboard"
+import Peer from "simple-peer"
+import io from "socket.io-client"
+import "./App.css"
+import { makeApiCall } from "./api/MakeApiCall"
+import VideoCallPage from "./component/VideoCallPage"
+
+const socket = io.connect("https://thevideocall.com:2055/")
+
+function App() {
+    const [me, setMe] = useState("")
+    const [stream, setStream] = useState(null)
+    const [receivingCall, setReceivingCall] = useState(false)
+    const [caller, setCaller] = useState("")
+    const [callerSignal, setCallerSignal] = useState(null)
+    const [callAccepted, setCallAccepted] = useState(false)
+    const [idToCall, setIdToCall] = useState("")
+    const [callEnded, setCallEnded] = useState(false)
+    const [name, setName] = useState("")
+    const myVideo = useRef(null)
+    const userVideo = useRef(null)
+    const connectionRef = useRef(null)
+
+    const [userRes, setUserRes] = useState()
+
+    const userRegister = async () => {
+        let data = {
+            eventName: "UserRegistered",
+            userId: "123456789",
+            package_name: "web",
+            Gender: 1,
+            type: -1,
+            app_version: "1",
+            Name: "Guest",
+        }
+        await makeApiCall("post", "/user", data, "raw")
+            .then((res) => {
+                console.log("res", res)
+                setUserRes(res)
+            })
+            .catch((error) => {
+                console.log("error", error)
+            })
+    }
+
+    useEffect(() => {
+        userRegister()
+        // if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices
+            .getUserMedia({ video: true, audio: true })
+            .then((stream) => {
+                setStream(stream)
+                console.log("stream", stream)
+                myVideo.current.srcObject = stream
+            })
+            .catch((error) => {
+                console.error("Error accessing media devices:", error)
+            })
+
+        socket.on("me", (id) => {
+            setMe(id)
+        })
+
+        socket.on("callUser", (data) => {
+            setReceivingCall(true)
+            setCaller(data.from)
+            setName(data.name)
+            setCallerSignal(data.signal)
+        })
+
+        // return () => {
+        //     // Cleanup when component unmounts
+        //     if (stream) {
+        //         stream.getTracks().forEach((track) => track.stop())
+        //     }
+        // }
+
+        // } else {
+        //     console.error("getUserMedia is not supported")
+        // }
+    }, [])
+
+    const callUser = (id) => {
+        const peer = new Peer({
+            initiator: true,
+            trickle: false,
+            stream: stream,
+            config: {
+                iceServers: [{ urls: "stun:stun.l.google.com:3478" }],
+            },
+        })
+        peer.on("signal", (data) => {
+            socket.emit("callUser", {
+                userToCall: id,
+                signalData: data,
+                from: me,
+                name: name,
+            })
+        })
+        peer.on("stream", (stream) => {
+            userVideo.current.srcObject = stream
+        })
+        socket.on("callAccepted", (signal) => {
+            setCallAccepted(true)
+            peer.signal(signal)
+        })
+
+        connectionRef.current = peer
+    }
+
+    const answerCall = () => {
+        setCallAccepted(true)
+        const peer = new Peer({
+            initiator: false,
+            trickle: false,
+            stream: stream,
+            config: {
+                iceServers: [{ urls: "stun:stun.l.google.com:3478" }],
+            },
+        })
+        peer.on("signal", (data) => {
+            socket.emit("answerCall", { signal: data, to: caller })
+        })
+        peer.on("stream", (stream) => {
+            userVideo.current.srcObject = stream
+        })
+
+        peer.signal(callerSignal)
+        connectionRef.current = peer
+    }
+
+    const leaveCall = () => {
+        setCallEnded(true)
+        connectionRef.current.destroy()
+    }
+
+    return (
+        <>
+            <h1 style={{ textAlign: "center", color: "#fff" }}>Zoomish</h1>
+            <div className="container">
+                <div className="video-container">
+                    <div className="video">{stream && <video playsInline muted ref={myVideo} autoPlay style={{ width: "300px" }} />}</div>
+                    <div className="video">{callAccepted && !callEnded ? <video playsInline ref={userVideo} autoPlay style={{ width: "300px" }} /> : null}</div>
+                </div>
+                <div className="myId">
+                    <TextField id="filled-basic" label="Name" variant="filled" value={name} onChange={(e) => setName(e.target.value)} style={{ marginBottom: "20px" }} />
+                    <CopyToClipboard text={me} style={{ marginBottom: "2rem" }}>
+                        <Button variant="contained" color="primary" startIcon={<AssignmentIcon fontSize="large" />}>
+                            Copy ID
+                        </Button>
+                    </CopyToClipboard>
+
+                    <TextField id="filled-basic" label="ID to call" variant="filled" value={idToCall} onChange={(e) => setIdToCall(e.target.value)} />
+                    <div className="call-button">
+                        {callAccepted && !callEnded ? (
+                            <Button variant="contained" color="secondary" onClick={leaveCall}>
+                                End Call
+                            </Button>
+                        ) : (
+                            <IconButton color="primary" aria-label="call" onClick={() => callUser(idToCall)}>
+                                <PhoneIcon fontSize="large" />
+                            </IconButton>
+                        )}
+                        {idToCall}
+                    </div>
+                </div>
+                <div>
+                    {receivingCall && !callAccepted ? (
+                        <div className="caller">
+                            <h1>{name} is calling...</h1>
+                            <Button variant="contained" color="primary" onClick={answerCall}>
+                                Answer
+                            </Button>
+                        </div>
+                    ) : null}
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default App
+
