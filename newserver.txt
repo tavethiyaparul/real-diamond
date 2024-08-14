@@ -1,0 +1,445 @@
+https://athh.tech/athhtech_admin/assets/uploads/resume/20240805103955.pdf
+apache --> sudo systemctl restart apache2
+	   sudo service apache2 restart
+           systemctl status apache2
+
+nginx --> sudo systemctl restart nginx 
+	  sudo service nginx restart
+
+Hostinger  - Tinder
+email    -  galaxym02sam2022@gmail.com
+password -  galaxym02sam20222
+:::::::::::::::::::::::::::::::::::::::::::: Athh Server :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Ip					  New passwoed
+68.183.190.110	                        Bh^Ja/Ma@1507_athH
+
+mongodb server backup photosnapicl zip file -/var/www/groworbit/public_html/MONGO_BACKUP/BACKUP
+
+mongodb_url
+mongodb://athAdmin:G8Q4kdwYXxrT1fj@localhost:27017/?authMechanism=DEFAULT&authSource=admin
+
+mysql -u root -p
+sql database 
+http://68.183.190.110/phpmyadmin/index.php
+username =groworbi_wallpap
+password =r830EPcHH#~x
+photo snapcial database =vijaysir 
+
+┌─────┬───────────────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id  │ name                          │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├─────┼───────────────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 8   │ admin_photo_snapcial          │ default     │ 1.0.0   │ fork    │ 139686   │ 0s     │ 1    │ online    │ 0%       │ 32.5mb   │ root     │ disabled │
+│ 20  │ admincontact                  │ default     │ 1.0.0   │ fork    │ 3470736  │ 9D     │ 2    │ online    │ 0%       │ 106.5mb  │ root     │ disabled │
+│ 17  │ adminhidecalculter            │ default     │ 1.0.0   │ fork    │ 3450     │ 48D    │ 0    │ online    │ 0%       │ 83.6mb   │ root     │ disabled │
+│ 12  │ al_calc                       │ default     │ 1.0.0   │ fork    │ 3247     │ 48D    │ 0    │ online    │ 0%       │ 88.6mb   │ root     │ disabled │
+│ 6   │ citizen_calc_version_soket    │ default     │ 1.0.0   │ fork    │ 108248   │ 11h    │ 44   │ online    │ 0%       │ 139.2mb  │ root     │ disabled │
+│ 1   │ dynamic_admin                 │ default     │ 1.0.0   │ fork    │ 2153     │ 48D    │ 0    │ online    │ 4%       │ 193.7mb  │ root     │ disabled │
+│ 3   │ dynamic_game_admin            │ default     │ 1.0.0   │ fork    │ 2208     │ 48D    │ 0    │ online    │ 0%       │ 54.9mb   │ root     │ disabled │
+│ 2   │ dynamic_utilities             │ default     │ 1.0.0   │ fork    │ 2179     │ 48D    │ 0    │ online    │ 0%       │ 75.1mb   │ root     │ disabled │
+│ 13  │ facepik2024                   │ default     │ 1.0.0   │ fork    │ 3282     │ 48D    │ 0    │ online    │ 0%       │ 80.2mb   │ root     │ disabled │
+│ 11  │ fullvideoplayer2024           │ default     │ 1.0.0   │ fork    │ 4071816  │ 3D     │ 1    │ online    │ 0%       │ 98.1mb   │ root     │ disabled │
+│ 5   │ gst_calc_version_soket        │ default     │ 1.0.0   │ fork    │ 127602   │ 2h     │ 773  │ online    │ 4%       │ 197.6mb  │ root     │ disabled │
+│ 7   │ itenicApps                    │ default     │ 1.0.0   │ fork    │ 2331     │ 48D    │ 0    │ online    │ 0%       │ 129.9mb  │ root     │ disabled │
+│ 9   │ photo_snapcial_2023           │ default     │ 1.0.0   │ fork    │ 88675    │ 48D    │ 7    │ online    │ 32%      │ 223.2mb  │ root     │ disabled │
+│ 0   │ photo_snapcial_old            │ default     │ 1.0.0   │ fork    │ 2119     │ 48D    │ 0    │ online    │ 0%       │ 101.4mb  │ root     │ disabled │
+│ 19  │ qrcode                        │ default     │ 1.0.0   │ fork    │ 11002    │ 48D    │ 3    │ online    │ 0%       │ 103.2mb  │ root     │ disabled │
+│ 18  │ rtoapp2023                    │ default     │ 1.0.0   │ fork    │ 3831     │ 48D    │ 0    │ online    │ 0%       │ 92.1mb   │ root     │ disabled │
+│ 15  │ testadmin                     │ default     │ 1.0.0   │ fork    │ 3342     │ 48D    │ 0    │ online    │ 0%       │ 76.7mb   │ root     │ disabled │
+│ 10  │ toolscalculter                │ default     │ 1.0.0   │ fork    │ 282967   │ 46D    │ 25   │ online    │ 8%       │ 136.4mb  │ root     │ disabled │
+│ 14  │ vipVideo                      │ default     │ 1.0.0   │ fork    │ 3305     │ 48D    │ 0    │ online    │ 0%       │ 112.7mb  │ root     │ disabled │
+│ 4   │ whatsappApi                   │ default     │ 1.0.0   │ fork    │ 2246     │ 48D    │ 0    │ online    │ 0%       │ 43.4mb   │ root     │ disabled │
+│ 16  │ whatsappsticker               │ default     │ 1.0.0   │ fork    │ 3427     │ 48D    │ 0    │ online    │ 0%       │ 86.8mb   │ root     │ disabled │
+└─────┴───────────────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+
+pm2  -->
+
+pm2 --name photo_snapcial_old start /var/www/athh/public_html/photo_snapcial/photo_snapcial_api/photo_snapcial.js
+pm2 --name dynamic_admin start /var/www/groworbit/public_html/dynamic_admin/d_node_api/dynamic_admin.js
+pm2 --name dynamic_utilities start /var/www/groworbit/public_html/dynamic_utilities/utilities_node_api/dynamic_utilities.js
+pm2 --name dynamic_game_admin start  /var/www/groworbit/public_html/dynamic_game_admin/game/dynamic_game_admin.js
+pm2 --name whatsappApi start  /var/www/athh/public_html/ApiWhatsapp/app.js
+pm2 --name sanppy start  /var/www/athh/public_html/Node_Api/whatsappApi.js
+pm2 --name gst_calc_version_soket start  /var/www/athh/public_html/Node_Api/gst_calc_version_soket.js    
+pm2 --name citizen_calc_version_soket start /var/www/athh/public_html/Node_Api/citizen_calc_version_soket.js
+pm2 --name itenicApps start /var/www/groworbit/public_html/itenicapps/ItenicApi/itenicApps.js
+pm2 --name admin_photo_snapcial start /var/www/groworbit/public_html/photo_snapcial2023/admin_photo_snapcial/backend/index.js
+pm2 --name photo_snapcial_2023 start  /var/www/groworbit/public_html/photo_snapcial2023/photo_snapcial/index.js
+pm2 --name rtoapp2023 start  /var/www/groworbit/public_html/rtoapp2023/index.js
+pm2 --name toolscalculter start  /var/www/groworbit/public_html/toolscalculter/backend/index.js
+pm2 --name fullvideoplayer2024 start  /var/www/groworbit/public_html/fullvideoplayer2024/backend/index.js
+pm2 --name al_calc start  /var/www/groworbit/public_html/al_calc/backend/index.js
+pm2 --name facepik2024 start  /var/www/groworbit/public_html/facepik2024/backend/index.js
+pm2 --name vipVideo start  /var/www/groworbit/public_html/videoapp/vipVideo.js
+pm2 --name testadmin start  /var/www/groworbit/public_html/testadmin/backend/index.js
+pm2 --name whatsappsticker start  /var/www/groworbit/public_html/whatsappsticker/backend/index.js
+pm2 --name adminhidecalculter start  /var/www/groworbit/public_html/adminhidecalculter/backend/index.js
+pm2 --name admincontact start  /var/www/groworbit/public_html/admincontact/backend/index.js
+pm2 --name qr start  /var/www/groworbit/public_html/qr/backend/index.js
+
+
+stop
+pm2 --name color_caller_screen_version_soket /var/www/groworbit/public_html/dynamic_utilities/utilities_node_api/color_caller_screen_version_soket.js
+
+cluster backup commond local pc - 
+mongodump --uri="mongodb+srv://admins:uNcuouKNa549Kkhs@cluster0.okgrskl.mongodb.net/" --out="gst_citizen_calc"
+cluster backup restore commond local pc -
+mongorestore --uri="mongodb+srv://admins:uNcuouKNa549Kkhs@cluster0.okgrskl.mongodb.net/" --drop --gzip --archive=backup_folder
+
+photo_snapcial_old old = snapcial = mongodb://athAdmin:G8Q4kdwYXxrT1fj@localhost:27017/?authMechanism=DEFAULT&authSource=admin
+photo_snapcial_2023 new = snapcial_2023  = mongodb://athAdmin:G8Q4kdwYXxrT1fj@localhost:27017/?authMechanism=DEFAULT&authSource=admin
+admin_photo_snapcial new = snapcial_2023 = mongodb://athAdmin:G8Q4kdwYXxrT1fj@localhost:27017/?authMechanism=DEFAULT&authSource=admin
+snappy
+database cluster list ====
+dynamic_utilities - mongodb+srv://admins:uTNuMmoFV4eaS7cf@cluster0.81iezl3.mongodb.net/?retryWrites=true&w=major
+
+mongodb+srv://admins:uNcuouKNa549Kkhs@cluster0.okgrskl.mongodb.net/
+- whatsappApi  dbName = whatsapp_sticker,gallery
+- newwhatsappstickers
+- citizen_calc_version_soket  dbName = gst_calc_divine
+- gst_calc_version_soket   dbName = gst_calc,gst_calc_divine
+- snappy
+
+mongodb+srv://admis:wQXcwMEA3YczMlFZ@cluster0.tiur85c.mongodb.net/
+- itenicapps
+- gst_calc
+- itenic_collage
+- baba_calc
+- emi_loan_calc
+- emicalc
+
+mongodb+srv://admins:ZwO5LhseKyn9KvWj@cluster0.gkglqbs.mongodb.net/?retryWrites=true&w=majority&ssl=true
+- dynamic_admin
+- vipVideo 
+
+mongodb+srv://galaxym02sam2022:thg5MroMRlerBcJ5@bdvideocall.ivvqptf.mongodb.net/
+- al_calc
+- toolscalculter 
+- dynamic_game_admin
+- contactadmin 
+- hidecalculator
+ 
+mongodb+srv://admins:pNDFojnlqYwCqjIH@cluster0.mypsfsh.mongodb.net/
+- rtoapp2023
+- fullvideoplayer2024
+- HDvideoplayer
+
+mongodb+srv://info:lHB8gjJynbxGh7gD@cluster0.yysadip.mongodb.net//$%7Bdbname%7D
+- facepik2024
+- test app
+- snapcial_2023  - not used
+
+mongodb+srv://grows:fykho4-xufpyJ-sarxev@bdcall.i7ogbup.mongodb.net/
+- bd video call
+
+::::::::::::::::: Like Me Server :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ mysql -u root -p
+
+ CREATE DATABASE chatgpt;
+ show table;
+ 
+Ip				Password	
+142.93.207.153		    BvM%7051(hhTa)_B
+athh@1234
+Databse:https://likeme.piks.co.in/phpmyadmin/index.php?route=/sql&server=1&db=digdig_digdig&table=subscription&pos=0
+userName:root
+password:dim@123Dim
+------------- Admin -------------
+app.codim.co.in
+┌────┬────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name   │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ app    │ default     │ 1.0.0   │ fork    │ 2367573  │ 53D    │ 0    │ online    │ 0%       │ 102.7mb  │ root     │ disabled │
+└────┴────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+ChatGpt -laravel - chatgpt
+
+::::::::::::::::: New Like Me Server :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Ip				Password	
+146.190.84.250	    		parul@athh
+
+https://likeme.live/likeme
+
+mongodb cluster url 
+likeme project
+mongodb+srv://galaxym02sam2022:kbeFocQETeNnXZx6@cluster0.lrem53m.mongodb.net/
+
+pm2 --name likeme start  /var/www/html/likeme
+
+::::::::::::::::: Piks.in Server testing server  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Ip					Password	
+piks.in		139.59.84.109 	      bharat@athh  
+
+Mongodb Database Url - 
+ mongodb://athhTech:3aYXtAt26hM37dyX@139.59.84.109:27017/?retryWrites=true&w=majority
+
+
+::::::::::::::::: thevideocall.com Server ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Ip						     Password	
+thevideocall.com    164.68.117.132                BjM$7051!(HG)_Thh
+
+mongo db url  add proxy/ssh - ssh with password
+	mongodb://localhost:27017/
+Mongodb backup
+	mongodump --host localhost  --out 05_12_2023
+
+------------- Admin -------------
+all_in_one_status_maker
+dash
+vc-api
+videocall_new
+videocalling
+VideoNodeLive
+┌─────┬───────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id  │ name          │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├─────┼───────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0   │ Video         │ default     │ N/A     │ fork    │ 16194    │ 4D     │ 136  │ online    │ 0%       │ 822.6mb  │ root     │ disabled │
+│ 2   │ VideoDebug    │ default     │ N/A     │ fork    │ 13557    │ 57D    │ 2    │ online    │ 0%       │ 100.1mb  │ root     │ disabled │
+│ 1   │ index         │ default     │ 1.0.0   │ fork    │ 13551    │ 57D    │ 52   │ online    │ 0%       │ 161.4mb  │ root     │ disabled │
+└─────┴───────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+
+pm2 --name video start /var/www/random_video/public_html/VideoNodeLive/Video.js
+pm2 --name vc-api start /var/www/random_video/public_html/vc-api/index.js
+
+:::::::::::::::::http://104.248.119.116:1111/ Server -contabo::::::::::::::::::::::::::::::::::::::::::::::::::::
+direct used ip address not domain used  -liveapp.fun
+http://104.248.119.116/bdvideocall/index.php/sl
+
+Ip			 Password	
+104.248.119.116	         bharat@athh                        
+
+mongodb backup:
+mongodump --uri=mongodb+srv://doadmin:r2HodK1Q04i7Z568@db-mongodb-sgp1-99342-48a6b7b7.mongo.ondigitalocean.com/?authSource=admin&tls=true --archive=final_05_12_2023  --gzip
+
+cluster - mongodb+srv://grows:fykho4-xufpyJ-sarxev@bdcall.i7ogbup.mongodb.net/
+ - bdvideocall 
+
+digitalocean Database - mongodb+srv://doadmin:r2HodK1Q04i7Z568@db-mongodb-sgp1-99342-48a6b7b7.mongo.ondigitalocean.com/?authSource=admin&authMechanism=DEFAULT&tls=true
+ - dynamicadmin
+
+pm2 --name bdviseocall start  /var/www/groworbit/public_html/qr/backend/index.js
+mongodb+srv://galaxym02sam2022:38Tdhabk5jhg2bBs@cluster0.b0dcgkt.mongodb.net/
+------------- Admin -------------
+0-likeme_live_socket
+
+┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐
+│ id │ name               │ mode     │ ↺    │ status    │ cpu      │ memory   │
+├────┼────────────────────┼──────────┼──────┼───────────┼──────────┼──────────┤
+│ 9  │ bdvideocall        │ fork     │ 42   │ online    │ 0%       │ 82.7mb   │
+│ 1  │ callapp_livestrea… │ fork     │ 23   │ online    │ 0%       │ 122.5mb  │
+│ 10 │ funpavo            │ fork     │ 11   │ online    │ 0%       │ 125.3mb  │
+│ 0  │ likeme_live_soket  │ fork     │ 3988 │ online    │ 0%       │ 153.0mb  │
+│ 2  │ livecall_livestre… │ fork     │ 1494 │ online    │ 0%       │ 128.5mb  │
+│ 3  │ livechatvideo_vid… │ fork     │ 3    │ online    │ 0%       │ 125.1mb  │
+│ 4  │ livevideocal_priv… │ fork     │ 6    │ online    │ 0%       │ 125.8mb  │
+│ 5  │ livevideocall_cha… │ fork     │ 3    │ online    │ 0%       │ 123.7mb  │
+│ 6  │ livevideochat_liv… │ fork     │ 3    │ online    │ 0%       │ 124.8mb  │
+│ 7  │ lvestream_livevid… │ fork     │ 3    │ online    │ 0%       │ 124.6mb  │
+│ 8  │ notification_inapp │ fork     │ 305  │ online    │ 0%       │ 118.7mb  │
+└────┴────────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘
+
+::::::::::::::::::::::Tinder ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+188.166.254.223        Bharat@1507   
+
+Database Url - http://188.166.254.223/phpmyadmin
+mysql -u root -p
+username - root
+password - AthhDB@123             
+password changed user
+ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY AthhDB@123
+user-2
+username - dev
+password - AthhDB@123 
+
++++++++++++++++++++++++++++++++++++++++++++ mongoDB Backup over pc +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+monbodb server community version 4.2 Required
+
+facepic testapp ->  clustor - RTO APP
+mongodump --uri="mongodb+srv://info:lHB8gjJynbxGh7gD@cluster0.yysadip.mongodb.net/"
+mongorestore --uri="mongodb://localhost:27017"
+
+toolscalc alcalc dynamic game admin contactadmin hidecalculator
+mongodump --uri="mongodb+srv://galaxym02sam2022:thg5MroMRlerBcJ5@bdvideocall.ivvqptf.mongodb.net/"
+
+rto_app_fullvideo
+mongodump --uri="mongodb+srv://admins:pNDFojnlqYwCqjIH@cluster0.mypsfsh.mongodb.net/"
+
+groworbit dynamic admin, vipvideo - groworbit_dynamic_admin  
+-cluster name -dynamic admin
+mongodump --uri="mongodb+srv://admins:ZwO5LhseKyn9KvWj@cluster0.gkglqbs.mongodb.net/?retryWrites=true&w=majority&ssl=true"
+
+emi_calc_baba_calc_itenic_app == 
+mongodump --uri="mongodb+srv://admis:wQXcwMEA3YczMlFZ@cluster0.tiur85c.mongodb.net/"
+
+gst_calc_version_citizen_soket_whatupApi  
+-  clustor name -divinecalc
+mongodump --uri="mongodb+srv://admins:uNcuouKNa549Kkhs@cluster0.okgrskl.mongodb.net/"
+dynamic_utilites
+
+bdvideocall    
+-clustor name - BD Video Call
+mongodump --uri="mongodb+srv://grows:fykho4-xufpyJ-sarxev@bdcall.i7ogbup.mongodb.net/"
+
+newlikeme     
+-clustor name - likeme
+mongodump --uri="mongodb+srv://galaxym02sam2022:kbeFocQETeNnXZx6@cluster0.lrem53m.mongodb.net/"
+
+liveapp_doadmin -not working
+mongodump --uri="mongodb+srv://doadmin:r2HodK1Q04i7Z568@db-mongodb-sgp1-99342-48a6b7b7.mongo.ondigitalocean.com/?authSource=admin&tls=true" --archive=final_05_12_2023 --gzip
+mongodump --uri=mongodb+srv://doadmin:r2HodK1Q04i7Z568@db-mongodb-sgp1-99342-48a6b7b7.mongo.ondigitalocean.com/?authSource=admin&tls=true --archive=final_05_12_2023  --gzip
+
+mongodump --uri="mongodb+srv://rishiv:rishiv%4017@cluster0.pie4pxq.mongodb.net/" --archive=2024_08_02.zip  --gzip
+dynamic utilties
+
+
+++++++++++++++++++++++++++++++++++++ Admin url +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1.-> old admin ==> https://www.athh.co/wastickers_mongo/index.php/sh === whatsticker 
+sftp://68.183.190.110 -server path = /var/www/athh/public_html/wastickers_mongo/protected/controllers
+node api == /var/www/athh/public_html/ApiWhatsapp
+dburl -mongodb+srv://admins:uNcuouKNa549Kkhs@cluster0.okgrskl.mongodb.net/
+
+2.-> https://groworbit.in/emi_calc/index.php/sl  === itenicApps
+sftp://68.183.190.110 - path = /var/www/groworbit/public_html/emi_calc
+node api == /var/www/groworbit/public_html/itenicapps/ItenicApi
+dburl - mongodb+srv://admis:wQXcwMEA3YczMlFZ@cluster0.tiur85c.mongodb.net/
+
+3.-> https://athh.co/gst_calc_divine_mongo_new/index.php/sl  === divine
+sftp://68.183.190.110 - path = /var/www/athh/public_html/gst_calc_divine_mongo_new
+node api == /var/www/athh/public_html/Node_Api/gst_calc_version_soket.js
+           /var/www/athh/public_html/Node_Api/citizen_calc_version_soket.js
+      api end point =https://www.athh.co/Node_Api/citizen_calc/api/
+dburl - mongodb+srv://admis:wQXcwMEA3YczMlFZ@cluster0.tiur85c.mongodb.net/
+
+4.-> not used => https://groworbit.in/videocalling1/index.php/sl  === videocalling1
+sftp://68.183.190.110 - path = /var/www/athh/public_html/gst_calc_divine_mongo_new
+node api == /var/www/athh/public_html/Node_Api/gst_calc_version_soket.js
+           /var/www/athh/public_html/Node_Api/citizen_calc_version_soket.js
+api end point = https://www.athh.co/Node_Api/citizen_calc/api/
+dburl - mongodb+srv://admis:wQXcwMEA3YczMlFZ@cluster0.tiur85c.mongodb.net/
+
+5.-> https://www.groworbit.in/dynamic_utilities/index.php/sh  === dynamic_utilities
+sftp://68.183.190.110 - path = /var/www/groworbit/public_html/dynamic_utilities
+node api == /var/www/groworbit/public_html/dynamic_utilities/utilities_node_api/util          
+dburl - mongodb+srv://admins:kSZOk3NIJN5lVMNS@cluster0.ye0t2yz.mongodb.net/
+
+6.-> https://groworbit.in/dynamic_game_admin/index.php/na  === dynamic_game_admin
+sftp://68.183.190.110 - path = /var/www/groworbit/public_html/dynamic_game_admin
+node api == /var/www/groworbit/public_html/dynamic_game_admin/game/util          
+dburl - mongodb+srv://galaxym02sam2022:thg5MroMRlerBcJ5@bdvideocall.ivvqptf.mongodb.net/
+
+7.-> https://www.groworbit.in/dynamic_admin/index.php/sh  === dynamic_admin
+sftp://68.183.190.110 - path = /var/www/groworbit/public_html/dynamic_admin
+node api == /var/www/groworbit/public_html/dynamic_admin/d_node_api          
+dburl - mongodb+srv://admins:ZwO5LhseKyn9KvWj@cluster0.gkglqbs.mongodb.net/
+
+8.-> http://104.248.119.116/bdvideocall/index.php/sl  === dbvideocall
+sftp://104.248.119.116 - path = /var/www/html/bdvideocall
+node api == /var/www/html/bdvideocall/bdvideocallapi
+node api url == http://liveapp.fun:4001/bdvideocallapi/api/        
+dburl - mongodb+srv://grows:fykho4-xufpyJ-sarxev@bdcall.i7ogbup.mongodb.net/
+
+9.-> http://104.248.119.116/index.php/sl  === dynamic admin
+sftp://104.248.119.116 - path = /var/www/html
+node api == /var/www/html/Node_Api
+node api socket-videocalldim postmen ==  http://likeme.live:3004/     
+dburl - mongodb+srv://doadmin:r2HodK1Q04i7Z568@db-mongodb-sgp1-99342-48a6b7b7.mongo.ondigitalocean.com/admin?authSource=admin&tls=true
+
+10.-> http://gamezfan.com/  === game -> code php
+sftp://104.248.119.116 - path = /var/www/gamezfan/public_html
+
+
+MERN STACK ADMIN AND API  - 2023
+
+1. photo snapcial
+   server path == /var/www/groworbit/public_html/photo_snapcial2023/admin_photo_snapcial/backend/index.js
+   admin url = https://groworbit.in/admin_photo_snapcial/auth
+   db url = mongodb://athAdmin:G8Q4kdwYXxrT1fj@localhost:27017/?authMechanism=DEFAULT&authSource=admin
+   	old database serveless = mongodb+srv://admins:hewHiz-nansu5-wawjaz@serverlessinstance0.6qdi9p
+   admin api end point = https://www.groworbit.in/photo_snapcial/api/version/code  
+ 
+2. photo snapcial - phone api nodejs
+   server path == /var/www/groworbit/public_html/photo_snapcial2023/photo_snapcial/index.js
+   db url = mongodb://athAdmin:G8Q4kdwYXxrT1fj@localhost:27017/?authMechanism=DEFAULT&authSource=admin
+   	old database serveless = mongodb+srv://admins:hewHiz-nansu5-wawjaz@serverlessinstance0.6qdi9p
+   api end point = https://www.groworbit.in/photo_snapcial/api/version/code
+
+3. facepic
+   server path == /var/www/groworbit/public_html/facepik2024/backend/index.js
+   admin url = https://groworbit.in/facepikapp/dashboard
+   db url = mongodb+srv://info:lHB8gjJynbxGh7gD@cluster0.yysadip.mongodb.net//$%7Bdbname%7D
+   api end point =http://localhost:4009/api/facepik/version
+
+4. testapp
+   server path == /var/www/groworbit/public_html/testadmin/backend/index.js
+   admin url = https://groworbit.in/testadmin/auth
+   db url = mongodb+srv://info:lHB8gjJynbxGh7gD@cluster0.yysadip.mongodb.net//$%7Bdbname%7D
+   api end point = https://groworbit.in/testadmin/api/testapp/version
+
+5. test socket -video call reactjs  - demo
+   server path == only build file live
+   admin url = https://groworbit.in/testadmin/vido
+  
+
+6. RTO APP -IOS
+   server path == /var/www/groworbit/public_html/rtoapp2023
+   admin url = https://groworbit.in/rtoapp
+   db url = mongodb+srv://admins:pNDFojnlqYwCqjIH@cluster0.mypsfsh.mongodb.net/
+   api end point =https://groworbit.in/rtoapp/api/rto/country/fuel   
+
+7. Tools calculator
+   server path == /var/www/groworbit/public_html/toolscalculter
+   admin url = https://groworbit.in/toolscalculter
+   db url = mongodb+srv://galaxym02sam2022:thg5MroMRlerBcJ5@bdvideocall.ivvqptf.mongodb.net/
+   api end point =https://groworbit.in/toolscalculter//api/toolscalc/version/
+	   Ios  = https://groworbit.in/toolscalculter/api/toolscalc/ios/version/
+
+8. AL calculator 
+   server path == /var/www/groworbit/public_html/al_calc
+   admin url = https://groworbit.in/al_calc/
+   db url = mongodb+srv://galaxym02sam2022:thg5MroMRlerBcJ5@bdvideocall.ivvqptf.mongodb.net/
+   api end point =https://groworbit.in/al_calc/api/alcalc/version/
+
+9. whatsappsticker 
+   server path == /var/www/groworbit/public_html/whatsappsticker/backend/index.js
+   admin url = https://groworbit.in/rtoapp/
+   db url = mongodb+srv://admins:uNcuouKNa549Kkhs@cluster0.okgrskl.mongodb.net/
+   api end point =https://groworbit.in/whatsappsticker/api/whatsappstickers/version
+
+10. fullvideoplayer , Hdvideoplayer 
+   server path ==/var/www/groworbit/public_html/fullvideoplayer2024/backend/index.js
+   admin url = https://groworbit.in/fullvideoplayer/dashboard
+   db url = mongodb+srv://admins:pNDFojnlqYwCqjIH@cluster0.mypsfsh.mongodb.net/
+   api end point =https://groworbit.in/fullvideoplayer/api/video_player/version
+   Hdvideoplayer==https://groworbit.in/fullvideoplayer/api/hd/video_player/version
+
+11.contact admin
+   server path == /var/www/groworbit/public_html/admincontact/backend/index.js
+   admin url = https://groworbit.in/admincontact/
+   db url = mongodb+srv://galaxym02sam2022:thg5MroMRlerBcJ5@bdvideocall.ivvqptf.mongodb.net/
+   api end point =https://groworbit.in/admincontact/api/contact/version
+
+12.hide calculter - not used ravina
+   server path == /var/www/groworbit/public_html/adminhidecalculter/backend/index.js
+   admin url = https://groworbit.in/adminhidecalculter/dashboard
+   db url = mongodb+srv://galaxym02sam2022:thg5MroMRlerBcJ5@bdvideocall.ivvqptf.mongodb.net/
+   api end point =https://groworbit.in/admincontact/api/contact/version
+
+13.vipVideo api call in photosanpcial admin, fakevideo
+   server path == /var/www/groworbit/public_html/videoapp/vipVideo.js
+   admin url = https://groworbit.in/admin_photo_snapcial/auth
+   db url = mongodb+srv://admins:ZwO5LhseKyn9KvWj@cluster0.gkglqbs.mongodb.net/?retryWrites=true&w=majority&ssl=true
+   api end point =https://www.groworbit.in/videoapp/vip/getvipvideo?content=0&page=1&pageSize=10
+
+14.qrcode
+   server path == /var/www/groworbit/public_html/qr
+   admin url = https://groworbit.in/qr
+   db url = mongodb+srv://galaxym02sam2022:thg5MroMRlerBcJ5@bdvideocall.ivvqptf.mongodb.net/
+
+15.new likeme - metoo 
+   server ip - 146.190.84.250
+   server path == /var/www/html/likeme
+   admin url = https://likeme.live/likeme/auth
+   password = admin - team@athh.likeme191
+	    = agent -
+   postman collection - VIDEOCALLDIMDIM - likemeandroid, likemesocket	
+   db url = mongodb+srv://galaxym02sam2022:kbeFocQETeNnXZx6@cluster0.lrem53m.mongodb.net/
+   api end point =https://likeme.live/likeme/api/get_host_profile
